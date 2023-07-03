@@ -62,9 +62,7 @@ namespace GitMergeTest
             Console.WriteLine("HOIHOI");
             Console.WriteLine("HOIHOIoioioioi");
             Console.WriteLine("HELLLLLLLO");
-
-
-
+            Console.WriteLine("COLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
         }
         // }    2023. 07. 03    Add private _SetInch function / User2
 
