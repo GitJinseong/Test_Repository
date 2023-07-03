@@ -8,7 +8,11 @@ using System.Threading.Tasks;
 namespace GitMergeTest
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     // {    2023. 07. 03. Modified class position / User
+=======
+    // {    2023. 07. 03. Modified class position / User2 
+>>>>>>> origin/user2
 =======
     // im user3
     public class Program
@@ -25,7 +29,7 @@ namespace GitMergeTest
             int.TryParse(userInput, out cmInput);
 
             Ruler ruler = new Ruler(10);
-            // }    2023. 07. 03. Add user Input / User3
+            // }    2023. 07. 03. Add user Input / User2 
             ruler.Run();
         }
     }
@@ -50,6 +54,13 @@ namespace GitMergeTest
         {
             Console.WriteLine($"{this.Centimeter}cm 는 {this.Inch}inch 입니다.");
         }
+
+        // {    2023. 07. 03    Add private _SetInch function / User2
+        public void Hello()
+        {
+            Console.WriteLine("HEEEEELO");
+        }
+        // }    2023. 07. 03    Add private _SetInch function / User2
 
         private void _SetInch(float inchValue) {  Centimeter = (int)(inchValue / ONE_INCH); }
         // }    2023. 07. 03    Add private _SetInch function / User2
