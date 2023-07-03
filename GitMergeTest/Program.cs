@@ -12,7 +12,17 @@ namespace GitMergeTest
     {
         static void Main(string[] args)
         {
+            // {    2023. 07. 03. Add user Input / Beta
+            string userInput = string.Empty;
+            Console.WriteLine("this program convert Cm to Inch");
+            Console.WriteLine("Input Cm value : ");
+            userInput = Console.ReadLine();
+
+            int cmInput = 0;
+            int.TryParse(userInput, out cmInput);
+
             Ruler ruler = new Ruler(10);
+            // }    2023. 07. 03. Add user Input / Beta
             ruler.Run();
         }
     }
