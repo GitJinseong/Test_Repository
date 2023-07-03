@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace GitMergeTest
 {
 <<<<<<< HEAD
-    // {    2023. 07. 03. Modified class position / Alpha
+    // {    2023. 07. 03. Modified class position / User
 =======
     // im user3
     public class Program
@@ -54,7 +54,7 @@ namespace GitMergeTest
         private void _SetInch(float inchValue) {  Centimeter = (int)(inchValue / ONE_INCH); }
         // }    2023. 07. 03    Add private _SetInch function / User2
     }
-    // }   2023. 07. 03. Modified class position / Alpha
+    // }   2023. 07. 03. Modified class position / User
 
     public class Program
     {
