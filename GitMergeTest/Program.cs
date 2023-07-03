@@ -11,7 +11,7 @@ namespace GitMergeTest
     {
         static void Main(string[] args)
         {
-            Ruler ruler = new Ruler(10);
+            Ruler ruler = new Ruler(100);
             ruler.Run();
         }
     }
