@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace GitMergeTest
 {
 <<<<<<< HEAD
-    // {    2023. 07. 03. Modified class position / Alpha
+    // {    2023. 07. 03. Modified class position / User2 
 =======
     // im user3
     public class Program
@@ -25,7 +25,7 @@ namespace GitMergeTest
             int.TryParse(userInput, out cmInput);
 
             Ruler ruler = new Ruler(10);
-            // }    2023. 07. 03. Add user Input / User3
+            // }    2023. 07. 03. Add user Input / User2 
             ruler.Run();
         }
     }
