@@ -51,6 +51,13 @@ namespace GitMergeTest
             Console.WriteLine($"{this.Centimeter}cm 는 {this.Inch}inch 입니다.");
         }
 
+        // {    2023. 07. 03    Add private _SetInch function / User2
+        public void Hello()
+        {
+            Console.WriteLine("HEEEEELO");
+        }
+        // }    2023. 07. 03    Add private _SetInch function / User2
+
         private void _SetInch(float inchValue) {  Centimeter = (int)(inchValue / ONE_INCH); }
         // }    2023. 07. 03    Add private _SetInch function / User2
     }
