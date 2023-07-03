@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace GitMergeTest
 {
+    // user2
     public class Program
     {
         static void Main(string[] args)
@@ -15,6 +16,7 @@ namespace GitMergeTest
             ruler.Run();
         }
     }
+    // user2
 
     public class Ruler
     {
